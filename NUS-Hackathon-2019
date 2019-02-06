@@ -89,7 +89,7 @@ About NUS Hack & Roll 2019
 </h2>
 
         <h4 class="text-center">
-        Our Hack Team competed in the NUS Hack & Roll 2019. This event is a free of charge and students and non-students are invited to come up with unique projects that will be later judged based on creativity, technical accomplishment, polish and usefulness in that order. Hardware projects are also welcomed. This event took place over the course of 2 days and our hackers had a blast being able to work on their ideas and be inspired by others who are alike. 
+        Our Hack Team competed in the NUS Hack & Roll 2019. This event is a free of charge and students and non-students are invited to come up with unique projects that will be later judged based on creativity, technical accomplishment, polish and usefulness in that order. Hardware projects are also welcomed. This event took place over the course of 2 days and our team consisting of Chen Hao, Rubesh and Titus, had a blast coming up with their very own creative project. 
         
         </h4>
         
@@ -127,7 +127,7 @@ About NUS Hack & Roll 2019
 <section class="features" id="features">
     <div class="container">
 <h2 class="text-center">
-         After brainstorming and formulating their ideas together, they and came up with this amazing project for submission!!!
+         After brainstorming and formulating their ideas together, the trio came up with this amazing project for submission!!!
 </h2>
     
     <img src="img/Water-spraying-alarm clock.jpeg" align="center" height=600px/>
@@ -143,13 +143,17 @@ About NUS Hack & Roll 2019
 <br>
 
 <h2 class="text-center">
-         This is a water-spraying alarm clock. It is a daily user, helping all the sleepy heads to wake up on time without fail. It has been programmed such that users will be sprayed with water if they fail to turn off the alarm clock in time.
+         This is the AquaClock. It is a daily user, helping all the sleepy heads to wake up on time without fail. The team used Arduino IDE for coding so that the components can work well together. Users will be sprayed with water if they fail to turn off the alarm clock in time.
 </h2>
 </div>      
  </div>
 </section>
 
-
+<p> For more information about the details of the NUS Hack & Roll, visit
+       <a href="https://hacknroll.nushackers.org/">visit<a/>:
+  </div>      
+ </div>
+</section>
 
 
   <!-- @component: footer -->

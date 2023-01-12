@@ -1,0 +1,29 @@
+
+body {
+    height: auto;
+    width: 100%;
+}
+
+#text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+h2 {
+    font-size: 25px;
+    margin-right: 10vw;
+}
+
+p {
+    font-size: 15px;
+    margin-right: 10vw;
+    margin-bottom: 30px;
+}
+
+span {
+    font-weight: bold;
+}

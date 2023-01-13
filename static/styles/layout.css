@@ -8,7 +8,9 @@
     font-family: "Rubik", sans-serif;
     overflow-x: hidden;
 }
-
+body {
+    padding-bottom: env(safe-area-inset-bottom);
+}
 nav {
     background: #222222;
     height: 80px;

@@ -91,10 +91,6 @@ label {
     font-size: 14px;
 }
 
-#email:focus, #name:focus, #subject:focus, #message:focus {
-    background-color: #800000;
-}
-
 #button {
     background-color: #800000;
     margin-top: 20px;

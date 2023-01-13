@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
-  
+body {
+    margin-bottom: env(safe-area-inset-bottom);
+}
 
 h2, h6 {
     color: #222222;

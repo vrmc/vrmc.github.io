@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: hidden;
+}
+#ul-container {
+    padding-left: 0;
+}
+
+#motto {
+    width: 75%;
+    color: #e4e6eb;
+    text-align: center;
+    z-index: 2;
+    display: block;
+    position: absolute;
+    font-size: 2vw;
+    left: 50%;
+    top: 500px;
+    transform: translateX(-50%);
+    background: #800000;
+}
+
+#carouselExampleAutoplaying {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    top: 80px;
+    z-index: 1;
+    flex-grow: 500px;
+}
+
+#carouselExampleAutoplaying #carousel-inner div img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-control-prev .carousel-control-next {
+    color: #800000;
+}
+
+iframe {
+    margin-top: 17vh;
+    width: 75%;
+    height: 50vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+}
+
+
+#mid-line {
+    border: 1px solid #4f4f4f;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quarter-line {
+    border: 1px solid #4f4f4f;
+    width: 90%;
+    text-align: center;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#form-desc {
+    margin: auto;
+}
+
+label {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#email:focus, #name:focus, #subject:focus, #message:focus {
+    background-color: #800000;
+}
+
+#button {
+    background-color: #800000;
+    margin-top: 20px;
+    border-color: #800000; 
+}
+header {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+}
+  
+#contact-container {
+    text-align: center;
+}
+
+.fa-map-marker {
+    font-size: 20px;
+}
+
+.fa-envelope {
+    font-size: 15px;
+}
+
+@media (max-width: 858px) {
+    #carouselExampleAutoplaying {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    #carousel-control-prev #carousel-control-next {
+        top: 205px;
+    }
+
+
+    #motto {
+        top: 280px;
+        font-size: 10px;
+    }
+
+    .contact-info p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    #name, #email, #message, #submit {
+        font-size: 0.875em;
+    }
+
+    .fa-envelope {
+        font-size: 15px;
+    }
+    .fa-map-marker {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 560px) {
+    #form {
+        width: auto;
+    }
+    
+    iframe {
+        margin-top: 100px;
+    }
+    #motto {
+        top: 250px;
+        font-size: 10px;
+    }
+
+}
+
+
+@media (max-width: 470px) {
+    iframe {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 370px) {
+    iframe {
+        margin-top: 50px;
+    }
+
+    #motto {
+        top: 220px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+

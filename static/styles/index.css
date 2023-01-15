@@ -141,7 +141,7 @@ header {
         font-size: 14px;
     }
 
-    #name, #email, #message, #submit {
+    #name, #email, #message, #submit, #subject {
         font-size: 0.875em;
     }
 

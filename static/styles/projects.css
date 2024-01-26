@@ -1,8 +1,0 @@
-p {
-    margin-top: calc(80px + 10vh);
-    left: 50%;
-    transform: translateX(-50%);
-    display: block;
-    position: absolute;
-    size: 20px;
-}
